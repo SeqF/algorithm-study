@@ -1,0 +1,18 @@
+
+Z
+java:S1854"8Remove this useless assignment to local variable "list".(‡Ôš¦úÿÿÿÿ8’”è/
+M
+java:S1481"+Remove this unused "level1" local variable.(‡´„€şÿÿÿÿ8’”è/
+W
+java:S1854":Remove this useless assignment to local variable "level3".(ğò¹é8İ´¼–/
+M
+java:S1481"+Remove this unused "level2" local variable.(“Äí×ûÿÿÿÿ8éı¼–/
+H
+java:S1481"+Remove this unused "level3" local variable.(ğò¹é8İ´¼–/
+Q
+java:S1128"4Remove this unused import 'java.lang.reflect.Array'.(‡¡É˜8Öö–/
+\
+java:S1854":Remove this useless assignment to local variable "level2".(“Äí×ûÿÿÿÿ8éı¼–/
+X	java:S125"<This block of commented-out lines of code should be removed.(öòùÏ8ÿßÔÛƒ/
+K
+java:S1481")Remove this unused "list" local variable.(‡Ôš¦úÿÿÿÿ8’”è/

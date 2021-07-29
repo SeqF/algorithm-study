@@ -1,0 +1,11 @@
+
+R
+java:S1191"5Use classes from the Java API instead of Sun classes.(éª‚€8ˆİä®/
+K
+java:S1068")Remove this unused "state" private field.(öÒÚ¾ûÿÿÿÿ8²¬î®/
+Z	java:S106'"9Replace this use of System.out or System.err by a logger.(û²Ş°ûÿÿÿÿ8Ôòÿ®/
+I
+java:S3011",This accessibility update should be removed.(˜ÂÓ˜8æØê¯/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(‡É»á8µßğ®/
+b	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Âğğ8µßğ®/
+v	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ìºÌİ8Ùéë®/

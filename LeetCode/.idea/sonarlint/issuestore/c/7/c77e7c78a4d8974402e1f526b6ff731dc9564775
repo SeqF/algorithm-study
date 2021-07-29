@@ -1,0 +1,20 @@
+
+D
+java:S1604"(Make this anonymous inner class a lambda(‚Æì]8¾šÊÜ€/
+E
+java:S1604"(Make this anonymous inner class a lambda(Å­ÀÆ8™ïıÛ€/
+]	java:S125"<This block of commented-out lines of code should be removed.(Úİ÷™ıÿÿÿÿ8ØºÜ€/
+l
+java:S1192"ODefine a constant instead of duplicating this literal "isInterrupted:" 4 times.(êğ£§8æì€Ü€/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(êğ£§8Š„€Ü€/
+Y
+java:S1854"=Remove this useless assignment to local variable "threadTwo".(‚Æì]8¾šÊÜ€/
+T	java:S106$"9Replace this use of System.out or System.err by a logger.(•¨‡l8®€Ü€/
+?
+java:S2189	""Add an end condition to this loop.(´ÿÕ™8™ïıÛ€/
+U	java:S106 "9Replace this use of System.out or System.err by a logger.(Àà‰ß8æì€Ü€/
+J
+java:S1481".Remove this unused "threadTwo" local variable.(‚Æì]8Ò·ÊÜ€/
+U	java:S106""9Replace this use of System.out or System.err by a logger.(êğ£§8æì€Ü€/
+U	java:S106!"9Replace this use of System.out or System.err by a logger.(Àà‰ß8æì€Ü€/
+E	java:S108	")Either remove or fill this block of code.(´ÿÕ™8™ïıÛ€/

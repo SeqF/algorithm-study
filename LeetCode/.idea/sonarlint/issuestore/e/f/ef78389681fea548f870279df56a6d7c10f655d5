@@ -1,0 +1,7 @@
+
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(‘Œåó8šÅÏ¡Œ/
+m	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ã˜Âİ
+M
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8³Æ„£Œ/
+K
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8³Æ„£Œ/

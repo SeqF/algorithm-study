@@ -1,0 +1,9 @@
+
+m	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ã˜ÂÝ
+p
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Öæ¯íüÿÿÿÿ8Ÿ¨Ç°‹/
+p
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Öæ¯íüÿÿÿÿ8Ÿ¨Ç°‹/
+7
+java:S1700"Rename field "minStack"(·Žçðüÿÿÿÿ8®×à­‹/
+e	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÞˆéŠøÿÿÿÿ

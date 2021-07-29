@@ -1,0 +1,11 @@
+
+c
+java:S2259"CA "NullPointerException" could be thrown; "headA" is nullable here.(ÔØ’âúÿÿÿÿ8¾¢¥äŠ/
+^
+java:S2259"CA "NullPointerException" could be thrown; "headB" is nullable here.(½•¼ä8°·©äŠ/
+m	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ã˜Âİ
+^
+java:S2259"CA "NullPointerException" could be thrown; "headB" is nullable here.(½•¼ä8èò²äŠ/
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(—Õ®8ˆÉ±áŠ/
+c
+java:S2259"CA "NullPointerException" could be thrown; "headA" is nullable here.(ÔØ’âúÿÿÿÿ8èò²äŠ/
