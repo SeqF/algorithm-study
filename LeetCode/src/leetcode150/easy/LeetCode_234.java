@@ -26,7 +26,7 @@ public class LeetCode_234 {
 
         ListNode p = head;
         while (p != null) {
-            list.add(p.data);
+            list.add(p.val);
             p = p.next;
         }
         int i = 0;
@@ -59,7 +59,7 @@ public class LeetCode_234 {
         ListNode p2 = secondHalfStart;
         boolean result = true;
         while (result && p2 != null) {
-            if (p1.data != p2.data) {
+            if (p1.val != p2.val) {
                 result = false;
             }
             p1 = p1.next;

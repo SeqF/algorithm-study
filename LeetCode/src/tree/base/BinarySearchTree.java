@@ -47,7 +47,7 @@ public class BinarySearchTree {
                     return;
                 }
                 p = p.right;
-            } else {// data<p.data
+            } else {// val<p.val
                 if (p.left == null) {
                     p.left = new TreeNode(data);
                     return;

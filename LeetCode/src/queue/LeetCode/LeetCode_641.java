@@ -47,7 +47,7 @@ public class LeetCode_641 {
 
 
         /**
-         * Initialize your data structure here. Set the size of the deque to be k.
+         * Initialize your val structure here. Set the size of the deque to be k.
          */
         public MyCircularDeque(int k) {
             this.size = k;

@@ -13,7 +13,7 @@ public class Solution {
 
 //        Array1 array = new Array1(5);
 //        for (int i = 0; i < array.size; i++) {
-//            array.data[i]="key"+i;
+//            array.val[i]="key"+i;
 //            array.count++;
 //        }
 //        array.append("key5");

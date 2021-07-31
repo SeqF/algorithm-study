@@ -1,10 +1,6 @@
 package leetcode150.easy;
 
-import com.sun.xml.internal.ws.util.StringUtils;
 import linkedlist.base.ListNode;
-
-import java.util.Arrays;
-import java.util.StringJoiner;
 
 /**
  * 合并两个有序链表
@@ -35,7 +31,7 @@ public class LeetCode_21 {
         }
         ListNode c = list;
         while (l1 != null && l2 != null) {
-            if (l1.data <= l2.data) {
+            if (l1.val <= l2.val) {
                 c.next = l1;
                 l1 = l1.next;
             } else {
@@ -67,7 +63,7 @@ public class LeetCode_21 {
         ListNode node = code21.mergeTwoList(l1, l2);
         StringBuilder stringBuilder = new StringBuilder();
         while (node != null) {
-            stringBuilder.append(node.data);
+            stringBuilder.append(node.val);
             node = node.next;
         }
         System.out.println(stringBuilder.toString());

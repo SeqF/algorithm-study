@@ -130,7 +130,7 @@ public class SingleLinkedList {
 
         //只要有一个链表为空时就停止遍历
         while (a != null && b != null) {
-            if (a.data <= b.data) {
+            if (a.val <= b.val) {
                 temp = a;
 
                 head1.next = a.next;
@@ -177,7 +177,7 @@ public class SingleLinkedList {
             return l1;
         }
 
-        if (l1.data < l2.data) {
+        if (l1.val < l2.val) {
             l1.next = mergeTwoLists(l1.next, l2);
             return l1;
         } else {

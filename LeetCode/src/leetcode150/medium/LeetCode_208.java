@@ -12,7 +12,7 @@ public class LeetCode_208 {
     private final TireNode root;
 
     /**
-     * Initialize your data structure here.
+     * Initialize your val structure here.
      */
     public LeetCode_208() {
         this.root = new TireNode('/');

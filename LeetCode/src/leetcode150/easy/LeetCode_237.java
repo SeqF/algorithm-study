@@ -15,7 +15,7 @@ public class LeetCode_237 {
      * @param listNode
      */
     public void deleteNode(ListNode listNode) {
-        listNode.data = listNode.next.data;
+        listNode.val = listNode.next.val;
         listNode.next = listNode.next.next;
     }
 }

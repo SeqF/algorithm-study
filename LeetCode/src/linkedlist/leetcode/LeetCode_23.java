@@ -71,7 +71,7 @@ public class LeetCode_23 {
         ListNode r = l3;
         while (p.next != null && q.next != null) {
 
-            if (p.data < q.data) {
+            if (p.val < q.val) {
                 r.next = p;
                 p = p.next;
 
