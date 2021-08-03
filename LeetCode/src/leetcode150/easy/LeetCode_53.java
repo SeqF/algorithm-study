@@ -9,6 +9,11 @@ package leetcode150.easy;
  */
 public class LeetCode_53 {
 
+    /**
+     * 用动态规划解决
+     * @param nums
+     * @return
+     */
     public int maxSubArray(int[] nums) {
         int length = nums.length;
         int[] dp = new int[length + 1];
