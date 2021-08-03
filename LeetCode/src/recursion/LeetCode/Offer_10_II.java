@@ -76,11 +76,19 @@ public class Offer_10_II {
 
     /**
      * 尝试使用动态规划
-     *
+     * 1、确定dp[i]的含义：dp[i]表示上i层楼梯有dp[i]种方法
+     * 2、确定递推公式：当为dp[i-1]时，上i-1层楼梯，有dp[i-1]种方法，再上一步，就到了dp[i];
+     *               当为dp[i-2]时，上i-2层楼梯，有dp[i-2]种方法，就到了dp[i]
+     *               -> dp[i]=dp[i-1]+dp[i-2]
+     * 3、dp数组初始化：dp[0]=1，dp[1]=1,dp[2]=1
+     * 4、确定遍历顺序: 从dp[i]=dp[i-1]+dp[i-2]推导出，应该是从前往后遍历
+     * 5、举例推导dp数组：dp[3]=dp[2]+dp[1] ->3: 1+2、1+1+1、2+1 有三种方法
      * @param n
      * @return
      */
     public int numWays3(int n) {
+
+
         return -1;
     }
 
