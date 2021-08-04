@@ -1,5 +1,6 @@
 package graph.base;
 
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -86,9 +87,7 @@ public class Graph {
         boolean[] visited = new boolean[v];
         //prev记录搜索路径，与BFS一样
         int[] prev = new int[v];
-        for (int i = 0; i < v; i++) {
-            prev[i] = -1;
-        }
+        Arrays.fill(prev, -1);
         recurDfs(s, t, visited, prev);
         print(prev, s, t);
     }
