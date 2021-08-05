@@ -1,8 +1,6 @@
 package leetcode150.medium;
 
 
-import queue.base.LinkedQueue;
-
 import java.util.HashMap;
 import java.util.Map;
 
@@ -39,32 +37,6 @@ public class LeetCode_138 {
         }
         return map.get(head);
     }
-
-    /**
-     *         if (head == null) {
-     *             return null;
-     *         }
-     *         Map<Node, Node> map = new HashMap<>(16);
-     *         Node cur = head;
-     *         while (cur != null) {
-     *             Node random = cur.random == null ? null : new Node(cur.random.val);
-     *             map.put(cur, random);
-     *             cur = cur.next;
-     *         }
-     *         Node newHead = new Node(head.val);
-     *         newHead.random = map.get(head);
-     *         Node newCur = newHead;
-     *         cur = head;
-     *         while (cur != null) {
-     *             Node node = new Node(cur.val);
-     *             node.random = map.getOrDefault(cur, null);
-     *             node.next = new Node(cur.next.val);
-     *             newCur.next = node;
-     *             newCur = newCur.next;
-     *             cur = cur.next;
-     *         }
-     *         return newHead;
-     */
 
     private class Node {
         int val;
