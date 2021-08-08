@@ -13,27 +13,28 @@ import linkedlist.base.ListNode;
 public class LeetCode_206 {
 
     /**
-     * 链表反转，用头插法,无头结点
+     *  定义一个cur指针，指向头结点，再定义一个pre指针，初始化为null
+     *  cur->next 节点用tmp指针保存一下
+     *  cur->next指向pre，即完成了反转，然后移动cur和pre
+     *  当cur指向null，即完成了反转，返回pre
      *
      * @param head
      * @return
      */
     public ListNode reverseList(ListNode head) {
-        if (head == null) {
-            return null;
-        }
+        ListNode pre = null;
+        ListNode cur = head;
         ListNode temp;
-        ListNode newHead = new ListNode();
-        ListNode i = head;
-        while (i != null) {
-            //拆出链表节点
-            temp = i;
-            i = i.next;
-            //将链表节点插入新的头结点
-            temp.next = newHead.next;
-            newHead.next = temp;
+        while (cur != null) {
+            //保存下一个节点
+            temp = cur.next;
+            //反转
+            cur.next = pre;
+            //移动
+            pre = cur;
+            cur = temp;
         }
-        return newHead.next;
+        return pre;
     }
 
 }

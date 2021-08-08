@@ -4,6 +4,7 @@ package linkedlist.base;
  * 单链表节点:
  * 1、数据域
  * 2、指针域
+ * @author paksu
  */
 public class ListNode {
 
