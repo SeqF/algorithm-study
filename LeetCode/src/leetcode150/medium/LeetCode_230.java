@@ -32,7 +32,7 @@ public class LeetCode_230 {
         }
         inOrder(node.left, k);
         if (count == k) {
-            result = node.value;
+            result = node.val;
         }
         count++;
         inOrder(node.right, k);

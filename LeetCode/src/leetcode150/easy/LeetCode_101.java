@@ -29,7 +29,7 @@ public class LeetCode_101 {
     private boolean checkChild(TreeNode leftNode,TreeNode rightNode) {
 
         //循环体，每次进行 左节点的左和右节点的右，左节点的右和右节点的左 比较
-        if (leftNode != null && rightNode != null && leftNode.value == rightNode.value) {
+        if (leftNode != null && rightNode != null && leftNode.val == rightNode.val) {
             return checkChild(leftNode.left, rightNode.right) && checkChild(leftNode.right, rightNode.left);
         }
         //递归出口，当不满足对称条件时，判断是否为空

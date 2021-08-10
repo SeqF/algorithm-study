@@ -26,7 +26,7 @@ public class LeetCode_105 {
             return null;
         }
         TreeNode root = new TreeNode();
-        root.value = preorder[l1];
+        root.val = preorder[l1];
         int i;
         for (i = l2; i < r2; i++) {
             if (preorder[l1] == inorder[i]) {
