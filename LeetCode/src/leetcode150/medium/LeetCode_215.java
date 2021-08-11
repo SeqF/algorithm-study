@@ -13,7 +13,7 @@ public class LeetCode_215 {
     int result = 0;
 
     /**
-     * 用快排，快排每次分区都会确定一个pivot的位置，根据这个pivot来确定k的范围并返回
+     * 用快排，快排每次分区都会确定一个pivot的位置(已排好序)，根据这个pivot来确定k的范围并返回
      *
      * @param nums
      * @param k
