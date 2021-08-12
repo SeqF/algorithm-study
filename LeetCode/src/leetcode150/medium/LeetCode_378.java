@@ -27,7 +27,7 @@ public class LeetCode_378 {
             //构建一个数组来标记 {当前的值，所在的行，所在的列}
             minPq.offer(new Integer[]{matrix[i][0], i, 0});
         }
-        //用小顶堆来不断移除matrix中的最小值，移除k-1个，剩下的第k个就在小顶堆的top
+        //用小顶堆的top来记录matrix的最小值，并不断移除matrix中的最小值，移除k-1个，剩下的第k个就在小顶堆的top
         for (int i = 0; i < k - 1; i++) {
             Integer[] currentMax = minPq.poll();
             if (currentMax[2] != n - 1) {
@@ -40,6 +40,7 @@ public class LeetCode_378 {
     public int kthSmallest2(int[][] matrix, int k) {
         //构建一个大顶堆
         PriorityQueue<Integer> maxPq = new PriorityQueue<>(Collections.reverseOrder());
+        //遍历矩阵，维护一个大小为k的大顶堆，将大的元素全部移除
         for (int[] row : matrix) {
             for (int num : row) {
                 if (maxPq.size() == k && maxPq.peek() < num) {
