@@ -26,14 +26,14 @@ public class LeetCode_105 {
             return null;
         }
         TreeNode root = new TreeNode();
-        root.value = preorder[l1];
+        root.val = preorder[l1];
         int i;
         for (i = l2; i < r2; i++) {
             if (preorder[l1] == inorder[i]) {
                 break;
             }
         }
-        //获取左右子树在前、中序遍历中的范围
+        //获取左右子树在前、中序遍历序列中的下标范围
         root.left = createTree(preorder, inorder, l1 + 1, l1 + i - l2, l2, i - 1);
         root.right = createTree(preorder, inorder, l1 + i - l2 + 1, r1, i + 1, r2);
         return root;
