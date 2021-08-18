@@ -17,9 +17,9 @@ public class BinarySearchTree {
     public TreeNode find(int data) {
         TreeNode p = tree;
         while (p != null) {
-            if (data < p.value) {
+            if (data < p.val) {
                 p = p.left;
-            } else if (data > p.value) {
+            } else if (data > p.val) {
                 p = p.right;
             } else {
                 return p;
@@ -41,7 +41,7 @@ public class BinarySearchTree {
 
         TreeNode p = tree;
         while (p != null) {
-            if (data > p.value) {
+            if (data > p.val) {
                 if (p.right == null) {
                     p.right = new TreeNode(data);
                     return;
@@ -69,9 +69,9 @@ public class BinarySearchTree {
         TreeNode pp = null;
 
         //查找要删除的节点
-        while (p != null && p.value != data) {
+        while (p != null && p.val != data) {
             pp = p;
-            if (data > p.value) {
+            if (data > p.val) {
                 p = p.right;
             } else {
                 p = p.left;
@@ -95,7 +95,7 @@ public class BinarySearchTree {
                 minP = minP.left;
             }
             //将minP的数据替换到p中
-            p.value = minP.value;
+            p.val = minP.val;
             //这里的操作是将删除后多余的最小节点操作，降维为删除最后一个节点,在接下来的方法中就能删除
             p = minP;
             pp = minPP;

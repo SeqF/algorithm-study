@@ -2,12 +2,10 @@ package leetcode150.medium;
 
 import tree.base.TreeNode;
 
-import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
-import java.util.WeakHashMap;
 
 /**
  * 二叉树的层次遍历
